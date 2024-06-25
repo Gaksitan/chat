@@ -1,0 +1,12 @@
+package thread;
+
+class MyThread2 extends Thread{
+	
+}
+
+public class Ex02_ThreadClass {
+	
+	public static void main(String[] args) {
+		
+	}
+}

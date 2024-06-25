@@ -1,0 +1,13 @@
+package lambda;
+
+interface Unit8{
+	void movd(String s);
+}
+
+public class Ex05_LambdaRule {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

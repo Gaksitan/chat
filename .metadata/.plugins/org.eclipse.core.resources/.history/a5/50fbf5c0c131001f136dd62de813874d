@@ -1,0 +1,12 @@
+package lambda;
+
+public class Outer1 {
+	private int speed = 10;
+	
+	class MemberInner1 {
+		
+		public void move() {
+			System.out.println("인간형 유닛이 %d 속도로 이동합니다.\n", speed);
+		}
+	}
+}

@@ -1,0 +1,43 @@
+package thread4;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.ArrayList;
+
+public class ChatServer extends Thread{
+	private Socket sock;
+	private static ArrayList<Socket> clients = new ArrayList<>();
+	
+	public ChatServer(Socket socket) {
+		this.sock = socket;
+	}
+	
+	@Override
+	public void run() {
+		InputStream fromClient = null;
+		OutputStream toClient = null;
+		
+		try {
+			System.out.println(sock + " : connected");
+			fromClient = sock.getInputStream();
+			
+			byte[] buffer = new byte[1024];
+			int count;
+			
+			while((count = fromClient.read(buffer)) != -1) {
+				for(Socket s : clients) {
+					if(sock != s) {
+						System.out.println(sock + " vs " + s);
+						toClient = s.getOutputStream();
+						toClient.write(buffer, 0, count);
+						toClient.flush();
+					}
+				}
+				System.out.write(buffer, 0, count);
+			}
+		}
+	}
+	
+	
+}

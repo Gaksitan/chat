@@ -1,0 +1,10 @@
+package stream;
+
+public class UserStreamTest {
+
+	public static void main(String[] args) {
+		User u1 = new User("James", 23);
+		User u2 = new User("Ann", 34);
+	}
+
+}

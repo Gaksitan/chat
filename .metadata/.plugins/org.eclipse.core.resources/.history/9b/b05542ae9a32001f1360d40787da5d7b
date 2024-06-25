@@ -1,0 +1,13 @@
+package thread4;
+
+import java.net.Socket;
+import java.util.ArrayList;
+
+public class ChatServer extends Thread{
+	private Socket sock;
+	private static ArrayList<Socket> clients = new ArrayList<>();
+	
+	public ChatServer(socket socket) {
+		this.sock = socket;
+	}
+}

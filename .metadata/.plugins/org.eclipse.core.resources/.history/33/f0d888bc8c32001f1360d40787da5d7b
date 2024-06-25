@@ -1,0 +1,17 @@
+package thread;
+
+class DemonThread extends Thread {
+	@Override
+	public void run() {
+		
+		System.out.println(getName() + " : " + (isDaemon() ? "데몬쓰레드" : "일반쓰레드"));
+		
+	}
+}
+
+public class Ex09_DemonThread2 {
+	// 데몬 쓰레드 (테스트)
+	
+	
+	
+}

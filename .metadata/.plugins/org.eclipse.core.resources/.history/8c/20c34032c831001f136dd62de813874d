@@ -1,0 +1,14 @@
+package lambda;
+
+interface Unit6{
+	void move(String s);
+}
+
+
+public class Ex04_Lambda {
+
+	public static void main(String[] args) {
+
+	}
+
+}

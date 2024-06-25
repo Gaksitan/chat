@@ -1,0 +1,31 @@
+package lambda;
+
+interface Unit3{
+	void move();
+}
+
+class HumanCamp3{
+	private int speed = 10;
+	
+	public Unit3 getMarine() {
+		
+		class Marine3 implements Unit3{
+			
+		}
+		
+		
+		return ;
+	}
+}
+
+
+
+public class Ex03_AnonymousInner {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

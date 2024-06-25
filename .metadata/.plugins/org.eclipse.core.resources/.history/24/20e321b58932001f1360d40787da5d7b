@@ -1,0 +1,20 @@
+package thread;
+
+class MyThread extends Thread{
+	@Override
+	public void run() {
+		for(long i = 0; i < 1000000000; i++) {
+			System.out.println(getName() + "우선순위 : " + getPriority());
+		}
+	}
+}
+
+public class Ex07_ThreadProperties2 {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

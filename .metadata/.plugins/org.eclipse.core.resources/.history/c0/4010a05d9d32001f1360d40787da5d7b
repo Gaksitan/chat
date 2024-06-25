@@ -1,0 +1,18 @@
+package thread4;
+
+import java.net.Socket;
+
+public class ChatClient {
+	
+	public static void main(String[] args) {
+		Socket sock = null;
+		
+		try {
+			sock = new Socket("192.168.0.246", 9999);
+			System.out.println(sock + " : connected");
+			
+			OutputStream toServer = sock
+		}
+	}
+	
+}

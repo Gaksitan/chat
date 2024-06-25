@@ -1,0 +1,13 @@
+package lambda;
+
+interface Unit10{
+	String move();
+}
+
+public class Ex07_LambdaRule3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

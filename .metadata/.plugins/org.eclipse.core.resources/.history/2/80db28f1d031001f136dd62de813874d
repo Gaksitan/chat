@@ -1,0 +1,19 @@
+package stream;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListStreamTest {
+
+	public static void main(String[] args) {
+		
+		List<String> sList = new ArrayList<>();
+		
+		sList.add("Tomas");
+		sList.add("Edward");
+		sList.add("Jack");
+		
+		
+	}
+
+}

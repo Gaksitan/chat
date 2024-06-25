@@ -1,0 +1,8 @@
+package thread;
+
+public class Ex02_ThreadClass {
+	
+	public static void main(String[] args) {
+		
+	}
+}

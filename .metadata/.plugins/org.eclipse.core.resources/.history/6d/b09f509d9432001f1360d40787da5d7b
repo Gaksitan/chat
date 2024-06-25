@@ -1,0 +1,17 @@
+package thread2;
+// 공유 객체
+public class MyData {
+	int data = 3;
+	
+	public void plusData() { // synchronized 쓰레드를 동기화 시켜줌 (실행되는 메서드 앞에 쓰면됨)
+		synchronized(this) { // 동기화 블록
+			int mydata = data; // 데이터 가져오기
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			data= mydata + 1;
+		}
+	}
+}

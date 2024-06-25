@@ -1,0 +1,34 @@
+package thread4;
+
+public class KeyObject_2 {
+	
+	public static void main(String[] args) {
+		
+		MyData myData = new MyData();
+		
+		new Thread() {
+			public void run() {
+				myData.abc();
+			};
+		}.start();
+
+		new Thread() {
+			public void run() {
+				myData.bcd();
+			};
+		}.start();
+		
+		new Thread() {
+			public void run() {
+				myData.cde();
+			};
+		}.start();
+		
+		
+		
+		
+		
+		
+		
+	}
+}

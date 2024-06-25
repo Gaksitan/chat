@@ -1,0 +1,13 @@
+package lambda;
+
+interface Unit9{
+	int calc(int a, int b);
+}
+
+public class Ex06_LambdaRule2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

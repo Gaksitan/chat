@@ -1,0 +1,15 @@
+package thread2;
+// 공유 객체
+public class MyData {
+	int data = 3;
+	
+	public void plusData() {
+		int mydata = data; // 데이터 가져오기
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		data= mydata + 1;
+	}
+}

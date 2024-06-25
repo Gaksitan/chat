@@ -1,0 +1,22 @@
+package lambda;
+
+interface Unit6{
+	void move(String s);
+}
+
+
+public class Ex04_Lambda {
+
+	public static void main(String[] args) {
+		
+		Unit6 unit = new Unit6() {
+			public void move(String s) {
+				System.out.println(s);
+			}
+		}
+		
+		
+		
+	}
+
+}

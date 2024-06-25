@@ -1,0 +1,11 @@
+package lambda;
+
+public class Ex01_Memberinner {
+
+	public static void main(String[] args) {
+		Outer out = new Outer1();
+		
+
+	}
+
+}

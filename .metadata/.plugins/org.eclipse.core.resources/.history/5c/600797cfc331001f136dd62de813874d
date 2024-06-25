@@ -1,0 +1,12 @@
+package lambda;
+
+public class Ex02_LocalInner {
+	private int speed = 10;
+	
+	public void getMarine() {
+		
+	}
+	
+	
+	
+}

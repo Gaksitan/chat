@@ -1,0 +1,11 @@
+package thread;
+
+public class Ex06_ThreadProperties {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

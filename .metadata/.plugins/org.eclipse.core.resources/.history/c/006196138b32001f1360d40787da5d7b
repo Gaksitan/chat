@@ -1,0 +1,5 @@
+package thread;
+
+public class Ex09_DemonThread2 {
+	// 데몬 쓰레드 (테스트)
+}
